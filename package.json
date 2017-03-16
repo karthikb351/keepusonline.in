@@ -1,0 +1,14 @@
+{
+  "name": "keepusonline.in",
+  "version": "0.0.1",
+  "description": "Website for keepusonline.in. Stop Internet Shutdowns in India.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karthik Balakrishnan (@karthikb351)",
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "semantic-ui": "^2.2.9"
+  }
+}
