@@ -4,11 +4,10 @@
 .masthead.segment {
   min-height: 400px;
   padding: 1em 0em;
-  background: url('https://upload.wikimedia.org/wikipedia/commons/e/ea/Earthlights_dmsp_1994%E2%80%931995.jpg') !important;
+  background: url('../images/header.png') !important;
   background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
-  background-position: center !important; 
-
+  background-position: top !important;
+  background-color: black !important;
 }
 .masthead .logo.item img {
   margin-right: 1em;
@@ -68,6 +67,15 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .masthead.segment {
+    min-height: 300px;
+    padding: 1em 0em;
+    background: url('../images/header.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: top !important;
+    background-color: black !important;
+  }
   .ui.fixed.menu {
     display: none !important;
   }
